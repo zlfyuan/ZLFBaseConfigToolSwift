@@ -1,0 +1,6 @@
+framework module ZLFBaseConfigToolSwift {
+  umbrella header "ZLFBaseConfigToolSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

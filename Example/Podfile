@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZLFBaseConfigToolSwift_Example' do
+  pod 'ZLFBaseConfigToolSwift', :path => '../'
+
+  target 'ZLFBaseConfigToolSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
