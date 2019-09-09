@@ -13,24 +13,24 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7F461FF1232654E7003F1063 /* ZLFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FD8232654E7003F1063 /* ZLFColor.swift */; };
-		7F461FF2232654E7003F1063 /* ZLFDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FD9232654E7003F1063 /* ZLFDate.swift */; };
-		7F461FF3232654E7003F1063 /* ZLFGCDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FDA232654E7003F1063 /* ZLFGCDExtension.swift */; };
-		7F461FF4232654E7003F1063 /* ZLFMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FDB232654E7003F1063 /* ZLFMappable.swift */; };
-		7F461FF5232654E7003F1063 /* ZLFConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FDC232654E7003F1063 /* ZLFConstant.swift */; };
-		7F461FF7232654E7003F1063 /* ZLFApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FDE232654E7003F1063 /* ZLFApplication.swift */; };
-		7F461FF9232654E7003F1063 /* ZLFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FE0232654E7003F1063 /* ZLFTool.swift */; };
-		7F461FFB232654E7003F1063 /* ZLFMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FE2232654E7003F1063 /* ZLFMacro.swift */; };
-		7F461FFC232654E7003F1063 /* ZLFframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FE3232654E7003F1063 /* ZLFframe.swift */; };
-		7F461FFD232654E7003F1063 /* ZLFUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FE4232654E7003F1063 /* ZLFUIViewController.swift */; };
-		7F461FFE232654E7003F1063 /* ZLFString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FE5232654E7003F1063 /* ZLFString.swift */; };
-		7F462003232654E7003F1063 /* ZLFNSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FEB232654E7003F1063 /* ZLFNSAttributedString.swift */; };
-		7F462004232654E7003F1063 /* ZLFTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FEC232654E7003F1063 /* ZLFTypealias.swift */; };
-		7F462005232654E7003F1063 /* ZLFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FED232654E7003F1063 /* ZLFError.swift */; };
-		7F462006232654E7003F1063 /* ZLFFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FEE232654E7003F1063 /* ZLFFont.swift */; };
-		7F462007232654E7003F1063 /* ZLFDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FEF232654E7003F1063 /* ZLFDevice.swift */; };
-		7F462008232654E7003F1063 /* ZLFBasicDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F461FF0232654E7003F1063 /* ZLFBasicDataType.swift */; };
-		7F46200C23265B75003F1063 /* ZLFUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46200B23265B75003F1063 /* ZLFUIImage.swift */; };
+		7F46209023266D65003F1063 /* ZLFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46207E23266D65003F1063 /* ZLFColor.swift */; };
+		7F46209123266D65003F1063 /* ZLFDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46207F23266D65003F1063 /* ZLFDate.swift */; };
+		7F46209223266D65003F1063 /* ZLFGCDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208023266D65003F1063 /* ZLFGCDExtension.swift */; };
+		7F46209323266D65003F1063 /* ZLFMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208123266D65003F1063 /* ZLFMappable.swift */; };
+		7F46209423266D65003F1063 /* ZLFConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208223266D65003F1063 /* ZLFConstant.swift */; };
+		7F46209523266D65003F1063 /* ZLFApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208323266D65003F1063 /* ZLFApplication.swift */; };
+		7F46209623266D65003F1063 /* ZLFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208423266D65003F1063 /* ZLFTool.swift */; };
+		7F46209723266D65003F1063 /* ZLFMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208523266D65003F1063 /* ZLFMacro.swift */; };
+		7F46209823266D65003F1063 /* ZLFframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208623266D65003F1063 /* ZLFframe.swift */; };
+		7F46209923266D65003F1063 /* ZLFUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208723266D65003F1063 /* ZLFUIViewController.swift */; };
+		7F46209A23266D65003F1063 /* ZLFString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208823266D65003F1063 /* ZLFString.swift */; };
+		7F46209B23266D65003F1063 /* ZLFNSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208923266D65003F1063 /* ZLFNSAttributedString.swift */; };
+		7F46209C23266D65003F1063 /* ZLFTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208A23266D65003F1063 /* ZLFTypealias.swift */; };
+		7F46209D23266D65003F1063 /* ZLFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208B23266D65003F1063 /* ZLFError.swift */; };
+		7F46209E23266D65003F1063 /* ZLFUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208C23266D65003F1063 /* ZLFUIImage.swift */; };
+		7F46209F23266D65003F1063 /* ZLFFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208D23266D65003F1063 /* ZLFFont.swift */; };
+		7F4620A023266D65003F1063 /* ZLFDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208E23266D65003F1063 /* ZLFDevice.swift */; };
+		7F4620A123266D65003F1063 /* ZLFBasicDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46208F23266D65003F1063 /* ZLFBasicDataType.swift */; };
 		A63929894298383BFA3885DB /* Pods_ZLFBaseConfigToolSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1ED3F92D3124CF2749AC6 /* Pods_ZLFBaseConfigToolSwift_Tests.framework */; };
 		C6DCF06B5C15E2442191DD17 /* Pods_ZLFBaseConfigToolSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639658A933ED8ED6BD60C24B /* Pods_ZLFBaseConfigToolSwift_Example.framework */; };
 /* End PBXBuildFile section */
@@ -60,24 +60,24 @@
 		639658A933ED8ED6BD60C24B /* Pods_ZLFBaseConfigToolSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLFBaseConfigToolSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66102C8807BF5B4064631520 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		74F4740E34982C6F232165F2 /* Pods-ZLFBaseConfigToolSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFBaseConfigToolSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZLFBaseConfigToolSwift_Tests/Pods-ZLFBaseConfigToolSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F461FD8232654E7003F1063 /* ZLFColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFColor.swift; sourceTree = "<group>"; };
-		7F461FD9232654E7003F1063 /* ZLFDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFDate.swift; sourceTree = "<group>"; };
-		7F461FDA232654E7003F1063 /* ZLFGCDExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFGCDExtension.swift; sourceTree = "<group>"; };
-		7F461FDB232654E7003F1063 /* ZLFMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFMappable.swift; sourceTree = "<group>"; };
-		7F461FDC232654E7003F1063 /* ZLFConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFConstant.swift; sourceTree = "<group>"; };
-		7F461FDE232654E7003F1063 /* ZLFApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFApplication.swift; sourceTree = "<group>"; };
-		7F461FE0232654E7003F1063 /* ZLFTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFTool.swift; sourceTree = "<group>"; };
-		7F461FE2232654E7003F1063 /* ZLFMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFMacro.swift; sourceTree = "<group>"; };
-		7F461FE3232654E7003F1063 /* ZLFframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFframe.swift; sourceTree = "<group>"; };
-		7F461FE4232654E7003F1063 /* ZLFUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFUIViewController.swift; sourceTree = "<group>"; };
-		7F461FE5232654E7003F1063 /* ZLFString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFString.swift; sourceTree = "<group>"; };
-		7F461FEB232654E7003F1063 /* ZLFNSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFNSAttributedString.swift; sourceTree = "<group>"; };
-		7F461FEC232654E7003F1063 /* ZLFTypealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFTypealias.swift; sourceTree = "<group>"; };
-		7F461FED232654E7003F1063 /* ZLFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFError.swift; sourceTree = "<group>"; };
-		7F461FEE232654E7003F1063 /* ZLFFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFFont.swift; sourceTree = "<group>"; };
-		7F461FEF232654E7003F1063 /* ZLFDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFDevice.swift; sourceTree = "<group>"; };
-		7F461FF0232654E7003F1063 /* ZLFBasicDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFBasicDataType.swift; sourceTree = "<group>"; };
-		7F46200B23265B75003F1063 /* ZLFUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLFUIImage.swift; sourceTree = "<group>"; };
+		7F46207E23266D65003F1063 /* ZLFColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFColor.swift; sourceTree = "<group>"; };
+		7F46207F23266D65003F1063 /* ZLFDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFDate.swift; sourceTree = "<group>"; };
+		7F46208023266D65003F1063 /* ZLFGCDExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFGCDExtension.swift; sourceTree = "<group>"; };
+		7F46208123266D65003F1063 /* ZLFMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFMappable.swift; sourceTree = "<group>"; };
+		7F46208223266D65003F1063 /* ZLFConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFConstant.swift; sourceTree = "<group>"; };
+		7F46208323266D65003F1063 /* ZLFApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFApplication.swift; sourceTree = "<group>"; };
+		7F46208423266D65003F1063 /* ZLFTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFTool.swift; sourceTree = "<group>"; };
+		7F46208523266D65003F1063 /* ZLFMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFMacro.swift; sourceTree = "<group>"; };
+		7F46208623266D65003F1063 /* ZLFframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFframe.swift; sourceTree = "<group>"; };
+		7F46208723266D65003F1063 /* ZLFUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFUIViewController.swift; sourceTree = "<group>"; };
+		7F46208823266D65003F1063 /* ZLFString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFString.swift; sourceTree = "<group>"; };
+		7F46208923266D65003F1063 /* ZLFNSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFNSAttributedString.swift; sourceTree = "<group>"; };
+		7F46208A23266D65003F1063 /* ZLFTypealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFTypealias.swift; sourceTree = "<group>"; };
+		7F46208B23266D65003F1063 /* ZLFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFError.swift; sourceTree = "<group>"; };
+		7F46208C23266D65003F1063 /* ZLFUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFUIImage.swift; sourceTree = "<group>"; };
+		7F46208D23266D65003F1063 /* ZLFFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFFont.swift; sourceTree = "<group>"; };
+		7F46208E23266D65003F1063 /* ZLFDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFDevice.swift; sourceTree = "<group>"; };
+		7F46208F23266D65003F1063 /* ZLFBasicDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFBasicDataType.swift; sourceTree = "<group>"; };
 		81C1ED3F92D3124CF2749AC6 /* Pods_ZLFBaseConfigToolSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLFBaseConfigToolSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F1E42A093E028D97D1FB44 /* Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLFBaseConfigToolSwift_Example/Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6BE9C04C59F3C7C97976881 /* ZLFBaseConfigToolSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLFBaseConfigToolSwift.podspec; path = ../ZLFBaseConfigToolSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -138,7 +138,7 @@
 		607FACD21AFB9204008FA782 /* Example for ZLFBaseConfigToolSwift */ = {
 			isa = PBXGroup;
 			children = (
-				7F461FD7232654E7003F1063 /* CateGroy */,
+				7F46207D23266D65003F1063 /* CateGroy */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -185,29 +185,30 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7F461FD7232654E7003F1063 /* CateGroy */ = {
+		7F46207D23266D65003F1063 /* CateGroy */ = {
 			isa = PBXGroup;
 			children = (
-				7F461FD8232654E7003F1063 /* ZLFColor.swift */,
-				7F461FD9232654E7003F1063 /* ZLFDate.swift */,
-				7F46200B23265B75003F1063 /* ZLFUIImage.swift */,
-				7F461FDA232654E7003F1063 /* ZLFGCDExtension.swift */,
-				7F461FDB232654E7003F1063 /* ZLFMappable.swift */,
-				7F461FDC232654E7003F1063 /* ZLFConstant.swift */,
-				7F461FDE232654E7003F1063 /* ZLFApplication.swift */,
-				7F461FE0232654E7003F1063 /* ZLFTool.swift */,
-				7F461FE2232654E7003F1063 /* ZLFMacro.swift */,
-				7F461FE3232654E7003F1063 /* ZLFframe.swift */,
-				7F461FE4232654E7003F1063 /* ZLFUIViewController.swift */,
-				7F461FE5232654E7003F1063 /* ZLFString.swift */,
-				7F461FEB232654E7003F1063 /* ZLFNSAttributedString.swift */,
-				7F461FEC232654E7003F1063 /* ZLFTypealias.swift */,
-				7F461FED232654E7003F1063 /* ZLFError.swift */,
-				7F461FEE232654E7003F1063 /* ZLFFont.swift */,
-				7F461FEF232654E7003F1063 /* ZLFDevice.swift */,
-				7F461FF0232654E7003F1063 /* ZLFBasicDataType.swift */,
+				7F46207E23266D65003F1063 /* ZLFColor.swift */,
+				7F46207F23266D65003F1063 /* ZLFDate.swift */,
+				7F46208023266D65003F1063 /* ZLFGCDExtension.swift */,
+				7F46208123266D65003F1063 /* ZLFMappable.swift */,
+				7F46208223266D65003F1063 /* ZLFConstant.swift */,
+				7F46208323266D65003F1063 /* ZLFApplication.swift */,
+				7F46208423266D65003F1063 /* ZLFTool.swift */,
+				7F46208523266D65003F1063 /* ZLFMacro.swift */,
+				7F46208623266D65003F1063 /* ZLFframe.swift */,
+				7F46208723266D65003F1063 /* ZLFUIViewController.swift */,
+				7F46208823266D65003F1063 /* ZLFString.swift */,
+				7F46208923266D65003F1063 /* ZLFNSAttributedString.swift */,
+				7F46208A23266D65003F1063 /* ZLFTypealias.swift */,
+				7F46208B23266D65003F1063 /* ZLFError.swift */,
+				7F46208C23266D65003F1063 /* ZLFUIImage.swift */,
+				7F46208D23266D65003F1063 /* ZLFFont.swift */,
+				7F46208E23266D65003F1063 /* ZLFDevice.swift */,
+				7F46208F23266D65003F1063 /* ZLFBasicDataType.swift */,
 			);
-			path = CateGroy;
+			name = CateGroy;
+			path = ../../ZLFBaseConfigToolSwift/Classes/CateGroy;
 			sourceTree = "<group>";
 		};
 		CC9D5862B3D664DA3AC06059 /* Pods */ = {
@@ -394,26 +395,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F462007232654E7003F1063 /* ZLFDevice.swift in Sources */,
-				7F461FFB232654E7003F1063 /* ZLFMacro.swift in Sources */,
-				7F461FF4232654E7003F1063 /* ZLFMappable.swift in Sources */,
+				7F46209323266D65003F1063 /* ZLFMappable.swift in Sources */,
+				7F46209923266D65003F1063 /* ZLFUIViewController.swift in Sources */,
+				7F46209A23266D65003F1063 /* ZLFString.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				7F46209B23266D65003F1063 /* ZLFNSAttributedString.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				7F461FFD232654E7003F1063 /* ZLFUIViewController.swift in Sources */,
-				7F461FFC232654E7003F1063 /* ZLFframe.swift in Sources */,
-				7F461FF9232654E7003F1063 /* ZLFTool.swift in Sources */,
-				7F46200C23265B75003F1063 /* ZLFUIImage.swift in Sources */,
-				7F461FF3232654E7003F1063 /* ZLFGCDExtension.swift in Sources */,
-				7F462006232654E7003F1063 /* ZLFFont.swift in Sources */,
-				7F462003232654E7003F1063 /* ZLFNSAttributedString.swift in Sources */,
-				7F462005232654E7003F1063 /* ZLFError.swift in Sources */,
-				7F461FF7232654E7003F1063 /* ZLFApplication.swift in Sources */,
-				7F461FF5232654E7003F1063 /* ZLFConstant.swift in Sources */,
-				7F462008232654E7003F1063 /* ZLFBasicDataType.swift in Sources */,
-				7F461FF2232654E7003F1063 /* ZLFDate.swift in Sources */,
-				7F462004232654E7003F1063 /* ZLFTypealias.swift in Sources */,
-				7F461FFE232654E7003F1063 /* ZLFString.swift in Sources */,
-				7F461FF1232654E7003F1063 /* ZLFColor.swift in Sources */,
+				7F46209823266D65003F1063 /* ZLFframe.swift in Sources */,
+				7F46209223266D65003F1063 /* ZLFGCDExtension.swift in Sources */,
+				7F46209C23266D65003F1063 /* ZLFTypealias.swift in Sources */,
+				7F4620A023266D65003F1063 /* ZLFDevice.swift in Sources */,
+				7F46209623266D65003F1063 /* ZLFTool.swift in Sources */,
+				7F46209E23266D65003F1063 /* ZLFUIImage.swift in Sources */,
+				7F46209F23266D65003F1063 /* ZLFFont.swift in Sources */,
+				7F46209423266D65003F1063 /* ZLFConstant.swift in Sources */,
+				7F46209123266D65003F1063 /* ZLFDate.swift in Sources */,
+				7F46209023266D65003F1063 /* ZLFColor.swift in Sources */,
+				7F46209523266D65003F1063 /* ZLFApplication.swift in Sources */,
+				7F46209723266D65003F1063 /* ZLFMacro.swift in Sources */,
+				7F46209D23266D65003F1063 /* ZLFError.swift in Sources */,
+				7F4620A123266D65003F1063 /* ZLFBasicDataType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
