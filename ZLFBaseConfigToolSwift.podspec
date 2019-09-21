@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CateGroy/*.swift'
+  s.source_files = 'ZLFBaseConfigToolSwift/CateGroy/*.swift'
   
   # s.resource_bundles = {
   #   'ZLFBaseConfigToolSwift' => ['ZLFBaseConfigToolSwift/Assets/*.png']
