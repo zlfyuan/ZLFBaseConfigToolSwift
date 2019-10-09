@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLFBaseConfigToolSwift'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '基础工具集合Swift版本'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   
 #  s.source_files  = "ZLFBaseConfigToolSwift", "ZLFBaseConfigToolSwift/**/*.{h,m,swift}"
 
-  s.source_files = ['ZLFBaseConfigToolSwift/Classes/*.swift']
+  s.source_files = 'ZLFBaseConfigToolSwift/Classes/*.swift'
   # s.resource_bundles = {
   #   'ZLFBaseConfigToolSwift' => ['ZLFBaseConfigToolSwift/Assets/*.png']
   # }
