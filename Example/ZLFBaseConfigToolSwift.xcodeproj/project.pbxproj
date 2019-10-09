@@ -102,7 +102,6 @@
 		607FACD21AFB9204008FA782 /* Example for ZLFBaseConfigToolSwift */ = {
 			isa = PBXGroup;
 			children = (
-				7FCDE263234DD22C00FB3144 /* Extension */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,13 +146,6 @@
 				66102C8807BF5B4064631520 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		7FCDE263234DD22C00FB3144 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		CC9D5862B3D664DA3AC06059 /* Pods */ = {

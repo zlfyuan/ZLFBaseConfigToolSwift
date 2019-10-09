@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   
 #  s.source_files  = "ZLFBaseConfigToolSwift", "ZLFBaseConfigToolSwift/**/*.{h,m,swift}"
 
-  s.source_files = ['Pod/Classes/*.swift']
+  s.source_files = ['ZLFBaseConfigToolSwift/Classes/*.swift']
   # s.resource_bundles = {
   #   'ZLFBaseConfigToolSwift' => ['ZLFBaseConfigToolSwift/Assets/*.png']
   # }
