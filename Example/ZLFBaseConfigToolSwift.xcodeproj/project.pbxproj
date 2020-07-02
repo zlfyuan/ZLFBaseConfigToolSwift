@@ -19,7 +19,6 @@
 		7FCDE280234DE78800FB3144 /* ZLFMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE26B234DE78800FB3144 /* ZLFMappable.swift */; };
 		7FCDE281234DE78800FB3144 /* ZLFConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE26C234DE78800FB3144 /* ZLFConstant.swift */; };
 		7FCDE282234DE78800FB3144 /* ZLFApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE26D234DE78800FB3144 /* ZLFApplication.swift */; };
-		7FCDE283234DE78800FB3144 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7FCDE26E234DE78800FB3144 /* .gitkeep */; };
 		7FCDE284234DE78800FB3144 /* ZLFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE26F234DE78800FB3144 /* ZLFTool.swift */; };
 		7FCDE285234DE78800FB3144 /* ZLFMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE270234DE78800FB3144 /* ZLFMacro.swift */; };
 		7FCDE286234DE78800FB3144 /* ZLFframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE271234DE78800FB3144 /* ZLFframe.swift */; };
@@ -32,7 +31,6 @@
 		7FCDE28D234DE78800FB3144 /* ZLFFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE278234DE78800FB3144 /* ZLFFont.swift */; };
 		7FCDE28E234DE78800FB3144 /* ZLFDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE279234DE78800FB3144 /* ZLFDevice.swift */; };
 		7FCDE28F234DE78800FB3144 /* ZLFBasicDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE27A234DE78800FB3144 /* ZLFBasicDataType.swift */; };
-		7FCDE290234DE78800FB3144 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7FCDE27C234DE78800FB3144 /* .gitkeep */; };
 		A63929894298383BFA3885DB /* Pods_ZLFBaseConfigToolSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1ED3F92D3124CF2749AC6 /* Pods_ZLFBaseConfigToolSwift_Tests.framework */; };
 		C6DCF06B5C15E2442191DD17 /* Pods_ZLFBaseConfigToolSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639658A933ED8ED6BD60C24B /* Pods_ZLFBaseConfigToolSwift_Example.framework */; };
 /* End PBXBuildFile section */
@@ -68,7 +66,6 @@
 		7FCDE26B234DE78800FB3144 /* ZLFMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFMappable.swift; sourceTree = "<group>"; };
 		7FCDE26C234DE78800FB3144 /* ZLFConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFConstant.swift; sourceTree = "<group>"; };
 		7FCDE26D234DE78800FB3144 /* ZLFApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFApplication.swift; sourceTree = "<group>"; };
-		7FCDE26E234DE78800FB3144 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		7FCDE26F234DE78800FB3144 /* ZLFTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFTool.swift; sourceTree = "<group>"; };
 		7FCDE270234DE78800FB3144 /* ZLFMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFMacro.swift; sourceTree = "<group>"; };
 		7FCDE271234DE78800FB3144 /* ZLFframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFframe.swift; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 		7FCDE278234DE78800FB3144 /* ZLFFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFFont.swift; sourceTree = "<group>"; };
 		7FCDE279234DE78800FB3144 /* ZLFDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFDevice.swift; sourceTree = "<group>"; };
 		7FCDE27A234DE78800FB3144 /* ZLFBasicDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFBasicDataType.swift; sourceTree = "<group>"; };
-		7FCDE27C234DE78800FB3144 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		81C1ED3F92D3124CF2749AC6 /* Pods_ZLFBaseConfigToolSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLFBaseConfigToolSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F1E42A093E028D97D1FB44 /* Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLFBaseConfigToolSwift_Example/Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6BE9C04C59F3C7C97976881 /* ZLFBaseConfigToolSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLFBaseConfigToolSwift.podspec; path = ../ZLFBaseConfigToolSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -208,7 +204,6 @@
 				7FCDE26B234DE78800FB3144 /* ZLFMappable.swift */,
 				7FCDE26C234DE78800FB3144 /* ZLFConstant.swift */,
 				7FCDE26D234DE78800FB3144 /* ZLFApplication.swift */,
-				7FCDE26E234DE78800FB3144 /* .gitkeep */,
 				7FCDE26F234DE78800FB3144 /* ZLFTool.swift */,
 				7FCDE270234DE78800FB3144 /* ZLFMacro.swift */,
 				7FCDE271234DE78800FB3144 /* ZLFframe.swift */,
@@ -228,7 +223,6 @@
 		7FCDE27B234DE78800FB3144 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				7FCDE27C234DE78800FB3144 /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -293,28 +287,25 @@
 			attributes = {
 				CLASSPREFIX = ZLF;
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = zluof;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = DK3DNWK64E;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = DK3DNWK64E;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1150;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ZLFBaseConfigToolSwift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -336,9 +327,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				7FCDE290234DE78800FB3144 /* .gitkeep in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				7FCDE283234DE78800FB3144 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -494,12 +484,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -539,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -547,12 +540,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -586,14 +581,14 @@
 			baseConfigurationReference = 92F1E42A093E028D97D1FB44 /* Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DK3DNWK64E;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZLFBaseConfigToolSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -602,14 +597,14 @@
 			baseConfigurationReference = 4E188ECE11DA07093E222DB4 /* Pods-ZLFBaseConfigToolSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DK3DNWK64E;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZLFBaseConfigToolSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -617,7 +612,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74F4740E34982C6F232165F2 /* Pods-ZLFBaseConfigToolSwift_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = DK3DNWK64E;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -631,7 +626,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLFBaseConfigToolSwift_Example.app/ZLFBaseConfigToolSwift_Example";
 			};
 			name = Debug;
@@ -640,7 +635,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C80BC2BF1AF97A871D0FDD72 /* Pods-ZLFBaseConfigToolSwift_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = DK3DNWK64E;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -650,7 +645,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLFBaseConfigToolSwift_Example.app/ZLFBaseConfigToolSwift_Example";
 			};
 			name = Release;

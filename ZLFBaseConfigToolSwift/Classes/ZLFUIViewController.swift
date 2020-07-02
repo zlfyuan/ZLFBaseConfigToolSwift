@@ -133,7 +133,7 @@ extension UINavigationController:UINavigationBarDelegate {
 //        }
         if shouldPop == false {
             
-            self.popToRootViewController(animated: true)
+//            self.popToRootViewController(animated: true)
 
         }else{
             self.popViewController(animated: true)

@@ -241,7 +241,7 @@ extension String{
         // 截取参数
         
         let greeting = self
-        let endOfSentence = greeting.index(of: "?")!
+        let endOfSentence = greeting.firstIndex(of: "?")!
         let strig = greeting[endOfSentence...]
         let paramsString = strig.appending("!")
         
