@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLFBaseConfigToolSwift'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = '基础工具集合Swift版本'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'zlfyuan' => 'zlfyuan1996@gmail.com' }
   s.source           = { :git => 'https://github.com/zlfyuan/ZLFBaseConfigToolSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_versions   = '4.2'
   s.ios.deployment_target = '9.0'
   
 #  s.source_files  = "ZLFBaseConfigToolSwift", "ZLFBaseConfigToolSwift/**/*.{h,m,swift}"
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'ZLFBaseConfigToolSwift' => ['ZLFBaseConfigToolSwift/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/*.swift'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

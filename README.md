@@ -1,6 +1,6 @@
 # ZLFBaseConfigToolSwift
 
-[![CI Status](https://img.shields.io/travis/1553427003@qq.com/ZLFBaseConfigToolSwift.svg?style=flat)](https://travis-ci.org/1553427003@qq.com/ZLFBaseConfigToolSwift)
+[![CI Status](https://img.shields.io/travis/741136856@qq.com/ZLFBaseConfigToolSwift.svg?style=flat)](https://travis-ci.org/741136856@qq.com/ZLFBaseConfigToolSwift)
 [![Version](https://img.shields.io/cocoapods/v/ZLFBaseConfigToolSwift.svg?style=flat)](https://cocoapods.org/pods/ZLFBaseConfigToolSwift)
 [![License](https://img.shields.io/cocoapods/l/ZLFBaseConfigToolSwift.svg?style=flat)](https://cocoapods.org/pods/ZLFBaseConfigToolSwift)
 [![Platform](https://img.shields.io/cocoapods/p/ZLFBaseConfigToolSwift.svg?style=flat)](https://cocoapods.org/pods/ZLFBaseConfigToolSwift)
@@ -22,7 +22,7 @@ pod 'ZLFBaseConfigToolSwift'
 
 ## Author
 
-1553427003@qq.com, 1553427003@qq.com
+741136856@qq.com
 
 ## License
 

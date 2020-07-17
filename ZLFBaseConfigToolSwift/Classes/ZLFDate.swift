@@ -40,6 +40,7 @@ extension Date{
         let minute = Calendar.current.component(Calendar.Component.minute, from: current)
         return String.init(format: "%02d", minute)
     }
+    
     /**
      * transform date ---> string
      */

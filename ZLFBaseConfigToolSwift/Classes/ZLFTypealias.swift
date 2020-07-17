@@ -8,8 +8,6 @@
 
 import UIKit
 
-class ZLFTypealias: NSObject {}
-
 typealias dicStrAnyObject = [String:AnyObject]
 
 typealias dicStrAny = [String:Any]

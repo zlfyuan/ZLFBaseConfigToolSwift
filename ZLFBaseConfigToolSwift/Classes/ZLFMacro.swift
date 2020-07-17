@@ -18,5 +18,9 @@ func ZLFLog<T>(message : T, file : String = #file, lineNumber : Int = #line) {
     #endif
 }
 
+func DeInitDebug(_ file : String = #file) {
+    let classname = (file as NSString).lastPathComponent.components(separatedBy: ".").first
+    ZLFLog(message: "\(classname!)销毁")
+}
 
 

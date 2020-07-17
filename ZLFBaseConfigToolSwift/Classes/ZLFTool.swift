@@ -17,14 +17,6 @@ class ZLFTool: NSObject {
     
 }
 
-func isValueNull(value:Any,complete:resultClosure){
-    if value is NSNull {
-      
-    }else {
-        complete("zlf")
-    }
-}
-
 func backgroundOpacity(control:UIViewController,boolValue:Bool) {
     if #available(iOS 11.0, *) { control.navigationController?.navigationBar.setValue(NSNumber.init(value: boolValue), forKey: "_backgroundOpacity")
     }
@@ -38,24 +30,11 @@ func adjustsScrollViewInsets(scrollView:UIScrollView,controller:UIViewController
     }
 }
 
-func getImage(name:String? = nil) -> UIImage? {
-    return UIImage.init(named: name ?? "")
-}
-
-func imageName(_ name: String) ->UIImage {
-    return UIImage.init(named: name)!
-}
-
 func CallPhone(phone:String){
     DispatchQueue.global().async {
         if let url = NSURL(string: "tel://\(phone)") {
             UIApplication.shared.openURL(url as URL)
         }
     }
-}
-
-func DeInitDebug(_ file : String = #file) {
-    let classname = (file as NSString).lastPathComponent.components(separatedBy: ".").first
-    ZLFLog(message: "\(classname!)销毁")
 }
 

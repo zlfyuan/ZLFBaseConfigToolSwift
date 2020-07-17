@@ -10,6 +10,8 @@ import UIKit
 
 open class ZLFDevice {
     
+    init() {}
+    
     open class var currentDevice: ZLFDevice{
         return ZLFDevice.init()
     }
@@ -118,83 +120,60 @@ open class ZLFDevice {
         
         return platform
     }
-    
-    
-    
-    init() {}
-    
-    
+
+    ///navgationBar的高度
+    public static let navgationBarHeight : CGFloat = {
+        if iphoneX == true {
+            return CGFloat(88)
+        }
+        return CGFloat(64)
+    }()
+
+    /// tabBar的高度
+    public static let tabBarHeight : CGFloat = {
+        if iphoneX == true {
+            return CGFloat(49.0+34.0)
+        }
+        return CGFloat(49)
+    }()
+
+
+    /// IphoneX底部控制区域的高度
+    public static let iPhoneXBottomHeight : CGFloat = {
+        if ZLFDevice.iphoneX == true {
+            return CGFloat(34.0)
+        }
+        return CGFloat(0)
+    }()
+
+    /// 刘海屏
+    public static let iphoneX: Bool = {
+        if statusBarHeight == 20 {
+            return false
+        }
+        return true
+    }()
+
+    public static let SCREEN = UIScreen.main.bounds
+    public static let SWIDTH = UIScreen.main.bounds.size.width
+    public static let SHEIGHT = UIScreen.main.bounds.size.height
+
+
+    /// 适配iPhoneX
+    public static let NavibarH: CGFloat = is_iPhoneX ? 88.0 : 64.0
+    public static let TabbarH: CGFloat = is_iPhoneX ? 49.0+34.0 : 49.0
+    public static let statusBarHeight: CGFloat = UIApplication.shared.statusBarFrame.height
+    public let iPhoneXBottomH: CGFloat = 34.0
+    public let iPhoneXTopH: CGFloat = 24.0
+
+    /// 判断机型
+    public static let IS_IPHONE_5 = (SWIDTH == 320.0 && SHEIGHT == 568.0 ?true:false)
+    public static let IS_IPHONE_6 = (SWIDTH == 375.0 && SHEIGHT == 667.0 ?true:false)
+    public static let IS_IPHONE_6P = (SWIDTH == 414.0 && SHEIGHT == 736.0 ?true:false)
+    public static let is_iPhoneX = (SWIDTH == 375.0 && SHEIGHT == 812.0 ?true:false)
+    public static let is_iPhoneXR_XSMax = (SWIDTH == 414.0 && SHEIGHT == 896.0 ?true:false)
+
+    /// 是否为ipad
+    public static let is_iPad = (UIDevice.current.model == "iPad" ? true : false)
     
 }
-
-///navgationBar的高度
-public let navgationBarHeight : CGFloat = {
-    if iphoneX == true {
-        return CGFloat(88)
-    }
-    return CGFloat(64)
-}()
-
-/// tabBar的高度
-public let tabBarHeight : CGFloat = {
-    if iphoneX == true {
-        return CGFloat(49.0+34.0)
-    }
-    return CGFloat(49)
-}()
-
-
-/// IphoneX底部控制区域的高度
-public let iPhoneXBottomHeight : CGFloat = {
-    if iphoneX == true {
-        return CGFloat(34.0)
-    }
-    return CGFloat(0)
-}()
-
-/// 刘海屏
-public let iphoneX: Bool = {
-    if statusBarHeight == 20 {
-        return false
-    }
-    return true
-}()
-
-func z_value(_ pt:CGFloat) -> CGFloat {
-    return scale_device * (pt * 2)
-}
-public let SCREEN = UIScreen.main.bounds
-public let SWIDTH = UIScreen.main.bounds.size.width
-public let SHEIGHT = UIScreen.main.bounds.size.height
-
-
-/// 适配iPhoneX
-public let NavibarH: CGFloat = is_iPhoneX ? 88.0 : 64.0
-public let TabbarH: CGFloat = is_iPhoneX ? 49.0+34.0 : 49.0
-public let statusBarHeight: CGFloat = UIApplication.shared.statusBarFrame.height
-public let iPhoneXBottomH: CGFloat = 34.0
-public let iPhoneXTopH: CGFloat = 24.0
-
-/// 判断机型
-public let IS_IPHONE_5 = (SWIDTH == 320.0 && SHEIGHT == 568.0 ?true:false)
-public let IS_IPHONE_6 = (SWIDTH == 375.0 && SHEIGHT == 667.0 ?true:false)
-public let IS_IPHONE_6P = (SWIDTH == 414.0 && SHEIGHT == 736.0 ?true:false)
-public let is_iPhoneX = (SWIDTH == 375.0 && SHEIGHT == 812.0 ?true:false)
-public let is_iPhoneXR_XSMax = (SWIDTH == 414.0 && SHEIGHT == 896.0 ?true:false)
-
-/// 是否为ipad
-public let is_iPad = (UIDevice.current.model == "iPad" ? true : false)
-
-/// proportion 比例 750
-public let proportion = SWIDTH / 750
-
-public let margin3 =  proportion * 30
-public let margin2 =  proportion * 20
-public let margin1 =  proportion * 10
-public let margin15 =  proportion * 30
-public let margin20 =  proportion * 40
-
-public let proportion45 =  proportion * 90
-public let proportion50 =  proportion * 100
-
-

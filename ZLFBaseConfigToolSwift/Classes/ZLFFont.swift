@@ -18,12 +18,19 @@ extension UIFont {
         return UIFont.systemFont(ofSize: scale_device * ofSize)
     }
     
-    ///  加粗字体
+    ///  加粗字体-semibold
+    ///
+    /// - Parameter ofSize: 字号
+    /// - Returns: UIFont
+    @objc open class func systemSemiBoldScaleFont(ofSize: CGFloat) -> UIFont {
+        return UIFont.systemFont(ofSize: scale_device * ofSize, weight: Weight.semibold)
+    }
+    
+    ///  加粗字体-bold
     ///
     /// - Parameter ofSize: 字号
     /// - Returns: UIFont
     @objc open class func systemblodScaleFont(ofSize: CGFloat) -> UIFont {
-        return UIFont.boldSystemFont(ofSize:scale_device * ofSize)
-        
+        return UIFont.systemFont(ofSize: scale_device * ofSize, weight: Weight.bold)
     }
 }

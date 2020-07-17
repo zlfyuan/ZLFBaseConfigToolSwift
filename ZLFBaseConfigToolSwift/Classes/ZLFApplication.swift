@@ -30,11 +30,6 @@ open class ZLFApplication : ZLFApplicationProtocol{
         }
         return "iOSApplication"
     }
-    
-    deinit {
-//        ZLFLog(message: "ZLFApplication销毁")
-    }
-    
 }
 
 // MARK: - 应用内存储 -UserDefaults

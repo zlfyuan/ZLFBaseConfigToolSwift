@@ -1,6 +1,6 @@
 //
-//  ZLFGCDExtension.swift
-//  testSwift
+//  ZLFDispatch.swift
+//  ZLFBaseConfigToolSwift
 //
 //  Created by zluof on 2018/5/7.
 //  Copyright © 2018年 zluof. All rights reserved.
@@ -19,6 +19,7 @@ extension DispatchQueue {
         let aftertime = DispatchTime.init(floatLiteral: Double(2 * delayTime))
         DispatchQueue.main.asyncAfter(deadline: aftertime, execute: execute)
     }
+    
     /// GCD定时器倒计时
     /// - Parameters:
     ///   - timeInterval: 循环间隔时间
