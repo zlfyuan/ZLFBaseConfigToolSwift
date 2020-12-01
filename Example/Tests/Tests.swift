@@ -1,7 +1,22 @@
 import XCTest
 import ZLFBaseConfigToolSwift
 
-class Tests: XCTestCase {
+import Foundation
+//@testable import ZLFBaseConfigToolSwift_Example
+@testable import ZLFBaseConfigToolSwift
+class StringTest: XCTestCase {
+    override class func setUp() {
+        super.setUp()
+    }
+    
+    func testEx() {
+        let e = ZLFDevice.currentDevice.devicePrint(length: 10)
+        XCTAssert(e == false)
+    }
+}
+
+
+class Tests: XCTestCase{
     
     override func setUp() {
         super.setUp()
@@ -15,7 +30,10 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+//        XCTAssert(true, "Pass")
+//        let date = Date()
+//        XCTAssert(date.currentDay == "1")
+        
     }
     
     func testPerformanceExample() {

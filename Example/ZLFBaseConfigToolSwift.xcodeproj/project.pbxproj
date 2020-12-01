@@ -31,6 +31,8 @@
 		7FCDE28F234DE78800FB3144 /* ZLFBasicDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCDE27A234DE78800FB3144 /* ZLFBasicDataType.swift */; };
 		A63929894298383BFA3885DB /* Pods_ZLFBaseConfigToolSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1ED3F92D3124CF2749AC6 /* Pods_ZLFBaseConfigToolSwift_Tests.framework */; };
 		C6DCF06B5C15E2442191DD17 /* Pods_ZLFBaseConfigToolSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639658A933ED8ED6BD60C24B /* Pods_ZLFBaseConfigToolSwift_Example.framework */; };
+		C70399E02576233700E4B9CF /* ZLFBaseConfigTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70399DF2576233700E4B9CF /* ZLFBaseConfigTool.swift */; };
+		C7039A0B2576395F00E4B9CF /* ZLF_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7039A092576395F00E4B9CF /* ZLF_Example.swift */; };
 		C768003424C149ED003433D5 /* ZLFDispatchSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C768003324C149ED003433D5 /* ZLFDispatchSemaphore.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		92F1E42A093E028D97D1FB44 /* Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLFBaseConfigToolSwift_Example/Pods-ZLFBaseConfigToolSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6BE9C04C59F3C7C97976881 /* ZLFBaseConfigToolSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLFBaseConfigToolSwift.podspec; path = ../ZLFBaseConfigToolSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2E48C7324F95E548782934B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C70399DF2576233700E4B9CF /* ZLFBaseConfigTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLFBaseConfigTool.swift; sourceTree = "<group>"; };
+		C7039A092576395F00E4B9CF /* ZLF_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLF_Example.swift; sourceTree = "<group>"; };
 		C768003324C149ED003433D5 /* ZLFDispatchSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLFDispatchSemaphore.swift; sourceTree = "<group>"; };
 		C80BC2BF1AF97A871D0FDD72 /* Pods-ZLFBaseConfigToolSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFBaseConfigToolSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLFBaseConfigToolSwift_Tests/Pods-ZLFBaseConfigToolSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				C7039A092576395F00E4B9CF /* ZLF_Example.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -196,23 +201,15 @@
 		7FCDE267234DE78800FB3144 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7FCDE268234DE78800FB3144 /* ZLFColor.swift */,
-				7FCDE269234DE78800FB3144 /* ZLFDate.swift */,
+				C70399B92576213600E4B9CF /* BaseUIKit */,
+				C70399B125761D9700E4B9CF /* BaseFoundation */,
 				7FCDE26A234DE78800FB3144 /* ZLFDispatch.swift */,
 				C768003324C149ED003433D5 /* ZLFDispatchSemaphore.swift */,
-				7FCDE271234DE78800FB3144 /* ZLFUIView.swift */,
-				7FCDE272234DE78800FB3144 /* ZLFUIViewController.swift */,
-				7FCDE273234DE78800FB3144 /* ZLFString.swift */,
-				7FCDE274234DE78800FB3144 /* ZLFNSAttributedString.swift */,
-				7FCDE275234DE78800FB3144 /* ZLFTypealias.swift */,
-				7FCDE276234DE78800FB3144 /* ZLFError.swift */,
-				7FCDE277234DE78800FB3144 /* ZLFUIImage.swift */,
-				7FCDE278234DE78800FB3144 /* ZLFFont.swift */,
-				7FCDE27A234DE78800FB3144 /* ZLFBasicDataType.swift */,
 				7FCDE26D234DE78800FB3144 /* ZLFApplication.swift */,
 				7FCDE26F234DE78800FB3144 /* ZLFTool.swift */,
 				7FCDE270234DE78800FB3144 /* ZLFMacro.swift */,
 				7FCDE279234DE78800FB3144 /* ZLFDevice.swift */,
+				C70399DF2576233700E4B9CF /* ZLFBaseConfigTool.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +219,31 @@
 			children = (
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		C70399B125761D9700E4B9CF /* BaseFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDE273234DE78800FB3144 /* ZLFString.swift */,
+				7FCDE27A234DE78800FB3144 /* ZLFBasicDataType.swift */,
+				7FCDE276234DE78800FB3144 /* ZLFError.swift */,
+				7FCDE275234DE78800FB3144 /* ZLFTypealias.swift */,
+				7FCDE274234DE78800FB3144 /* ZLFNSAttributedString.swift */,
+				7FCDE269234DE78800FB3144 /* ZLFDate.swift */,
+			);
+			path = BaseFoundation;
+			sourceTree = "<group>";
+		};
+		C70399B92576213600E4B9CF /* BaseUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7FCDE271234DE78800FB3144 /* ZLFUIView.swift */,
+				7FCDE272234DE78800FB3144 /* ZLFUIViewController.swift */,
+				7FCDE277234DE78800FB3144 /* ZLFUIImage.swift */,
+				7FCDE268234DE78800FB3144 /* ZLFColor.swift */,
+				7FCDE278234DE78800FB3144 /* ZLFFont.swift */,
+			);
+			path = BaseUIKit;
 			sourceTree = "<group>";
 		};
 		CC9D5862B3D664DA3AC06059 /* Pods */ = {
@@ -412,6 +434,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				7FCDE289234DE78800FB3144 /* ZLFNSAttributedString.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C70399E02576233700E4B9CF /* ZLFBaseConfigTool.swift in Sources */,
 				7FCDE286234DE78800FB3144 /* ZLFUIView.swift in Sources */,
 				7FCDE27F234DE78800FB3144 /* ZLFDispatch.swift in Sources */,
 				7FCDE28A234DE78800FB3144 /* ZLFTypealias.swift in Sources */,
@@ -434,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				C7039A0B2576395F00E4B9CF /* ZLF_Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

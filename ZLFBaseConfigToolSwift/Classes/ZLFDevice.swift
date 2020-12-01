@@ -10,6 +10,10 @@ import UIKit
 
 open class ZLFDevice {
     
+    func devicePrint(length:Int)->Bool{
+        return length > 10
+    }
+    
     init() {}
     
     open class var currentDevice: ZLFDevice{

@@ -150,16 +150,16 @@ extension ZLFApplication{
                     appStoreVersion = appStoreVersion.appending("00")
                 }
                 ZLFLog(message: "当前版本号\(currentVersion) 商店版本号\(appStoreVersion)")
-                if currentVersion.floatValue < appStoreVersion.floatValue {
-                    // 需要更新
-                    self.alertViewControllerAction(title: "新版本来了，快去更新吧~", message: releaseNotes, actionRightTitle: "立即更新", actionLeftTitle: "以后再说", actionLeftEvent: { (ta) in
-                    }, actionRightEvent: { (tap) in
-                        let urlstring = resultsDict["trackViewUrl"] as! String
-                        self.openAppStore(urlstring)
-                    })
-                } else {
-                    //不需要更新
-                }
+//                if currentVersion.floatValue < appStoreVersion.floatValue {
+//                    // 需要更新
+//                    self.alertViewControllerAction(title: "新版本来了，快去更新吧~", message: releaseNotes, actionRightTitle: "立即更新", actionLeftTitle: "以后再说", actionLeftEvent: { (ta) in
+//                    }, actionRightEvent: { (tap) in
+//                        let urlstring = resultsDict["trackViewUrl"] as! String
+//                        self.openAppStore(urlstring)
+//                    })
+//                } else {
+//                    //不需要更新
+//                }
             }
         }
         task.resume()

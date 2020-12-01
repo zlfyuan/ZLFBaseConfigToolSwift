@@ -1,6 +1,6 @@
 {
   "name": "ZLFBaseConfigToolSwift",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "summary": "基础工具集合Swift版本",
   "description": "用于构建项目基本结构和提供基本工具",
   "homepage": "https://github.com/zlfyuan/ZLFBaseConfigToolSwift",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/zlfyuan/ZLFBaseConfigToolSwift.git",
-    "tag": "0.1.7"
+    "tag": "0.1.8"
   },
+  "swift_versions": "4.2",
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "ZLFBaseConfigToolSwift/Classes/*.swift",
-  "public_header_files": "Pod/Classes/*.swift"
+  "swift_version": "4.2"
 }
